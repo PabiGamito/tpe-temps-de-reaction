@@ -1,0 +1,69 @@
+h3, h4, span, .faint-label, #waiting, #go, #results, #retry, #instructions, #submit{
+  display: none;
+  text-align: center;
+}
+
+h4{
+  font-size: 25px;
+}
+
+#go{
+  background-color: #4BDB6A;
+}
+
+#landing, #results, #retry, #submit{
+  background-color: #2B87D1;
+}
+
+#waiting{
+  background-color: #CE2636;
+}
+
+@media (min-width: 700px) {
+  .reaction-time-test .instructions {
+    height: auto;
+  }
+}
+h3 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 30px;
+}
+
+h3 .sub-header{
+  font-size: 15px;
+}
+
+@media screen and (min-width: 200px) {
+  h3 {
+    font-size: 40px;
+    height: 350px;
+  }
+  h3 .sub-header{
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  h3 {
+    font-size: 60px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+  }
+  h3 .sub-header{
+    font-size: 25px;
+  }
+}
+
+.faint-label{
+  opacity: 0.5;
+}
+
+@media (min-width: 750px) {
+  #banner h3{
+    width: 750px;
+    margin: auto;
+  }
+}

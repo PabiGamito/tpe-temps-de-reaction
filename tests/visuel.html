@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+  <head>
+    <title>Le Temps de Reaction - Tester son temps de reaction</title>
+    <link rel="shortcut icon" href="http://s30.postimg.org/hp6fi1yj5/favicon.png" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Tester son temps de reaction à travers un petit test et comparez votre score avec le reste du monde.">
+    <link rel="stylesheet" href="../assets/css/learn-more.css" />
+    <link rel="stylesheet" type="text/css" href="test.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/font-awesome.min.css">
+    <!-- Tracking -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-44179721-3', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+  </head>
+  <body style="background-color: #2B87D1;">
+
+    <!-- Page Wrapper -->
+      <div id="page-wrapper">
+
+        <!-- Header -->
+          <header id="header" class="alt">
+            <h1 id="nav-header"><a href="#">Du Stimulus à L'action</a></h1>
+            <nav>
+              <a href="../index.html"><i class="fa fa-arrow-left"></i> Retour</a>
+              <a href="#menu">Menu</a>
+            </nav>
+          </header>
+
+        <!-- Banner -->
+            <section id="landing" style="background-color: #2B87D1; margin-top: 50px;">
+              <h3>
+                <div class="fa fa-bolt pulse"></div>
+                <div>Pret? Cliquez</div>
+                <div id="instructions" class="sub-header">Lorsque la boîte rouge passe au vert, cliquez sur l'écran le plus rapidement possible.</div>
+              </h3>
+              <div class="progress">
+                <h4 class="faint-label average">Moyenne | 0 ms</h4>
+                <h4 class="faint-label tries">Essaies | 0 of 5</h4>
+              </div>
+            </section>
+            <section id="go" style="display: none; margin-top: 50px;">
+              <h3>
+                <div class="fa fa-mouse-pointer"></div>
+                <div>Cliquez!</div>
+              </h3>
+              <div class="progress">
+                <h4 class="faint-label average">Moyenne | 0ms</h4>
+                <h4 class="faint-label tries">Essaies | 0 sur 5</h4>
+              </div>
+            </section>
+            <section class="inner" id="waiting" style="display: none; margin-top: 50px;">
+              <h3>
+                <div class="fa fa-ellipsis-h"></div>
+                <div>En attente du vert</div>
+              </h3>
+              <div class="progress">
+                <h4 class="faint-label average">Moyenne | 0ms</h4>
+                <h4 class="faint-label tries">Essaies | 0 of 5</h4>
+              </div>
+            </section>
+            <section id="results" style="display: none; margin-top: 50px;">
+              <h3>
+                <div class="fa fa-clock-o"></div>
+                <div id="results_div"></div>
+                <div class="sub-header">Cliquez pour continuer</div>
+              </h3>
+              <div class="progress">
+                <h4 class="faint-label average">Moyenne | 0ms</h4>
+                <h4 class="faint-label tries">Essaies | 0 of 5</h4>
+              </div>
+            </section>
+            <section id="retry" style="display: none; margin-top: 50px;">
+              <h3>
+                <div class="fa fa-exclamation-circle"></div>
+                <div>Trop tôt!</div>
+              </h3>
+              <div class="progress">
+                <h4 class="faint-label average">Moyenne | 0ms</h4>
+                <h4 class="faint-label tries">Essaies | 0 of 5</h4>
+              </div>
+            </section>
+            <section id="submit" style="display: none; margin-top: 50px;">
+              <h3>
+                <div class="fa fa-cloud-upload"></div>
+                <div>Soumettre vos resultats</div>
+                <div class="sub-header">Cliquez pour continuer</div>
+              </h3>
+              <a href="#" class="special" id="done-link">Soumettre</a> <!-- replace id with for form submit-link -->
+              <div class="progress">
+                <h4 class="faint-label average" style="font-weight: bold; opacity: 1">Moyenne | 0ms</h4>
+                <h4 class="faint-label tries">Essaies | 0 of 5</h4>
+              </div>
+            </section>
+            <section id="submit-popup" style="display: none; margin-top: 50px;">
+              <h3>
+                <div class="fa fa-cloud-upload"></div>
+                <div>Sumbit Popup</div>
+              </h3>
+              <a href="#" class="special" id="done-link">Envoyer</a>
+            </section>
+
+        <!-- Wrapper -->
+          <section id="wrapper">
+
+            <!-- One -->
+              <section id="one" class="wrapper style1">
+                <div class="inner">
+                  <div class="content">
+                    <h2 class="major">Statistics</h2>
+                    <p>En cours de construction</p>
+                  </div>
+                </div>
+              </section>
+
+          </section>
+
+      </div>
+
+    <!-- Scripts -->
+      <script src="../assets/js/jquery.min.js"></script>
+      <script src="visuel.js"></script>
+
+  </body>
+</html>
